@@ -1,17 +1,16 @@
+#conditions
+# <
+# >
+# ==
+#  !
 
-#the input function allows you to write on the terminal
+print(2 <3)
 
-print('what is your name?')
-name = input()
-print('hello', name)
+print('hello' == 'helo')
 
-#operators
-num1 = 45
-num2 = 10
-print(num1+num2)
+#if, else and elif in python
 
-#integer division
-#there is no remainder
-num3 = 64
-num4 = 10
-print(num3//num4)
+age = input('input your age: ')
+
+if int(age) == 16:
+    print('hey you are 16')
