@@ -1,16 +1,19 @@
-#conditions
-# <
-# >
-# ==
-#  !
+#chained conditionals and nested statements
+x = 2
+y = 3
 
-print(2 <3)
+if not(y ==x or x + y==5):
+    print('come')
+else:
+    print(':(')
 
-print('hello' == 'helo')
+x = 2
+y = 3
 
-#if, else and elif in python
-
-age = input('input your age: ')
-
-if int(age) == 16:
-    print('hey you are 16')
+if x ==2:
+    if y ==3:
+        print('x = 2, y=3')
+    else:
+        print('x= 2, y != 3')
+else:
+    print('x ! =2')
