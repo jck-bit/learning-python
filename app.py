@@ -1,19 +1,18 @@
-#chained conditionals and nested statements
-x = 2
-y = 3
+# for loops
+for x in range(4, 25):
+    print(x)
 
-if not(y ==x or x + y==5):
-    print('come')
-else:
-    print(':(')
+for x in range(0,10):
+    print(0,10)
 
-x = 2
-y = 3
+#while loops
+#while condtion == :
+#  do this
 
-if x ==2:
-    if y ==3:
-        print('x = 2, y=3')
-    else:
-        print('x= 2, y != 3')
-else:
-    print('x ! =2')
+loop = True
+
+while loop:
+    name = input('insert something: ')
+    if name == 'stop':
+        break
+      
