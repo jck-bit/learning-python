@@ -1,18 +1,21 @@
-# for loops
-for x in range(4, 25):
-    print(x)
+#iterating through a list.
+#this is known as iterating by item
+fruits = ['mango', 'apple', 'strawberry', 'banana']
 
-for x in range(0,10):
-    print(0,10)
+for fruit in fruits:
+    print(fruit)
 
-#while loops
-#while condtion == :
-#  do this
+#another example includes
 
-loop = True
+for fruit in fruits:
+    if fruit == 'banana':
+        print('banana')
+    else:
+        print('not a banana')
 
-while loop:
-    name = input('insert something: ')
-    if name == 'stop':
-        break
-      
+#iterating using the indices method
+for x in range(0, 3):
+    if fruits[x] == 'banana':
+        print(fruits[x])
+    else:
+        print('not a banana')
