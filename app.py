@@ -1,31 +1,6 @@
-#functions in python
+file = open('file.txt', 'w')
 
-def addtwo(x):
+file.write('python\n')
+file.write('i am learning on how to on a text')
 
-    return x + 2
-
-
-newnumber = addtwo(7)
-
-print(newnumber)
-
-
-def printstring(string):
-    print(string)
-
-
-printstring('hello world')
-
-printstring('my name is jack')
-
-
-
-def distance(speed, time):
-    d = speed * time
-    return d
-
-print(distance(3,5))
-
-def dosomething():
-    print('am fine')
-dosomething()
+file.close()
