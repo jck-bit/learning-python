@@ -1,7 +1,11 @@
-#modular programming and import statements
+#optional operators //more advanced functions
 
-import math
-import mymodule
+def func(x =3, text = 1):
+    print(x)
+    if text == 1:
+        print('text is 1')
+    else:
+        print('text')
 
-print(math.radians(60))
-print(mymodule.myfunction(6))
+
+func('5')
