@@ -1,10 +1,14 @@
-#try and except (try & accept)
-text = input('username: ')
+#global vs local variables
+# global can be used everywhere
 
-try:
-    number = int(text)
-    print(number)
+var = 9
+loop = True
 
-except:
-    print('invalid username')
+def func(x):
+    newvar = 7
+    print(loop)
+    if x ==5:
+        return newvar
 
+
+func(2)
