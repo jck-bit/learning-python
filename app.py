@@ -1,10 +1,7 @@
-# .find and .count method
-#find states how many characters there are
-string = 'hello'
+#modular programming and import statements
 
-print(string.find('o'))
+import math
+import mymodule
 
-#count method 
-string = 'hello'
-
-print(string.count('o'))
+print(math.radians(60))
+print(mymodule.myfunction(6))
