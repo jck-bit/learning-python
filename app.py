@@ -1,6 +1,10 @@
-file = open('file.txt', 'w')
+# .find and .count method
+#find states how many characters there are
+string = 'hello'
 
-file.write('python\n')
-file.write('i am learning on how to on a text')
+print(string.find('o'))
 
-file.close()
+#count method 
+string = 'hello'
+
+print(string.count('o'))
