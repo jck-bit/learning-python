@@ -1,11 +1,10 @@
-#optional operators //more advanced functions
+#try and except (try & accept)
+text = input('username: ')
 
-def func(x =3, text = 1):
-    print(x)
-    if text == 1:
-        print('text is 1')
-    else:
-        print('text')
+try:
+    number = int(text)
+    print(number)
 
+except:
+    print('invalid username')
 
-func('5')
