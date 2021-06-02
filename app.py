@@ -1,14 +1,22 @@
-#global vs local variables
-# global can be used everywhere
-
-var = 9
-loop = True
-
-def func(x):
-    newvar = 7
-    print(loop)
-    if x ==5:
-        return newvar
+#classes and objects in python 
+# a method applies an object to itself
+#a function takes an ob ject and aplies an operation to it
 
 
-func(2)
+
+
+class dog(object):
+    def __init__(self ,name, age):
+        self.name = name
+        self.age = age
+        print('nice you made a scarf')
+
+    def speak(self):
+        print('hi am', self.name,'and am' ,self.age, 'years old')
+
+
+
+jack = dog('jack' , 19)
+fred = dog('fred' ,5)
+jack.speak()
+fred.speak()
