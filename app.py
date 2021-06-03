@@ -15,8 +15,10 @@ class dog(object):
         print('hi am', self.name,'and am' ,self.age, 'years old')
 
 
-
+"""the speak method automatically takes self"""
 jack = dog('jack' , 19)
 fred = dog('fred' ,5)
 jack.speak()
 fred.speak()
+
+print(jack.age)
