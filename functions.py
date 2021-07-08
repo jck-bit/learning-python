@@ -1,9 +1,5 @@
-def hello():
-    return 'hello function!'
 
 # keeping your code DRY..by avoiding repeating yourselves
-
-print(hello())
 
 #passing arguments in functions
 
@@ -20,3 +16,5 @@ def student_info(*args, **kwargs):
     print(kwargs)
 
 student_info('math', 'art', name = 'john', age = '23')
+
+# args is positional  arguments while kwargs is a dictionary with all keywords values
