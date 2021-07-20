@@ -16,7 +16,7 @@ else:
 #not
 
 User = 'Admin'
-logged_in = False
+logged_in = True
 
 if User == 'Admin' and logged_in:
     print('Admin page')
